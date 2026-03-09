@@ -54,6 +54,7 @@ def bfN(value,bits):
   value=(1<<bits)+value
  return format(value,"0{}b".format(bits))
 
+#hello 
 def parse(instructions,labels):
 
  out=[]
